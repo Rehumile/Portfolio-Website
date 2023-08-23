@@ -10,6 +10,7 @@
   --text-color: hsl(var(var(--hue), var(var(--sat), 46%)));
   --body-color: hsl(var(--hue), var(var(--sat), 98%));
   --container-color: #fff;
+--example-color: yellow;
 
   /*Font and Typography*/
 
@@ -170,6 +171,10 @@ img {
 /*==========BREAKPOINTS===========*/
 /*For large devices*/
 @media  screen and (max-width: 992px) {
+  .container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
   
 }
 
