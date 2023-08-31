@@ -1,8 +1,5 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project will serve as potfolio website which will includes sections namely: My skills, qualification, edducation etc.
+This project was inpired by the youtube channel [Criptical Coder](https://www.youtube.com/@CrypticalCoder). To create a similar porfolio website, check out the [video](https://www.youtube.com/watch?v=3aCoZudPEKE&list=WL&index=8&t=3891s)
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
