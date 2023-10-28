@@ -24,7 +24,7 @@ export default function Qualifications() {
                     <div className="qualification__content">
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title"></h3>
+                                <h3 className="qualification__title">Web Design</h3>
                                 <span className="qualification__subtitle">Spain - Institute</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
@@ -34,7 +34,7 @@ export default function Qualifications() {
 
                             <div>
                                 <span className="qualification__rounder"></span>
-                                <div className="qualification__line"></div>
+                                <span className="qualification__line"></span>
                             </div>
                         </div>
 
@@ -47,7 +47,18 @@ export default function Qualifications() {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title"></h3>
+                                <h3 className="qualification__title">Art Director</h3>
+                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    2021 - Present
+                                </div>
+                            </div>   
+                        </div>
+
+                        <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Web Developement</h3>
                                 <span className="qualification__subtitle">Spain - Institute</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
@@ -55,8 +66,31 @@ export default function Qualifications() {
                                 </div>
                             </div>
 
-                           
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
                         </div>
+
+                        <div className="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 className="qualification__title">UX Expert</h3>
+                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    2021 - 2018
+                                </div>
+                            </div>   
+                        </div>
+
+                        
                     </div>
                 </div>
             </div>
