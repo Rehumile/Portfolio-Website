@@ -3,31 +3,31 @@ import React from "react";
 export default function Backend() {
     return (
         <div className="skills__content">
-            <h3 className="skills__title">Backend</h3>
+            <h3 className="skills__title">Soft Skills</h3>
 
             <div className="skills__box">
                 <div className="skills__group">
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">PHP</h3>
-                    <span className="skills__level">Basic</span>
+                    <h3 className="skills__name">Patience</h3>
+                    {/* <span className="skills__level">Basic</span> */}
                     </div>
                 </div>
 
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Supabase</h3>
-                    <span className="skills__level">Proficient</span>
+                    <h3 className="skills__name">Collaboration</h3>
+                    {/* <span className="skills__level">Proficient</span> */}
                     </div>
                 </div>
 
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">NodeJS</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">Verbal Communication</h3>
+                    {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>
 </div>
@@ -35,12 +35,12 @@ export default function Backend() {
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">SQL</h3>
-                    <span className="skills__level">Basic</span>
+                    <h3 className="skills__name">Attention to detaill</h3>
+                    {/* <span className="skills__level">Basic</span> */}
                     </div>
                 </div>
 
-                <div className="skills__data">
+                {/* <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
                     <h3 className="skills__name">Firebase</h3>
@@ -54,7 +54,7 @@ export default function Backend() {
                     <h3 className="skills__name">JavaScript</h3>
                     <span className="skills__level">Intermediate</span>
                     </div>
-                </div>
+                </div> */}
 
            
                 </div>

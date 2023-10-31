@@ -11,7 +11,7 @@ export default function Qualifications() {
     return (
         
 
-        <section className="qualification section">
+        <section className="qualification section" id="qualification">
             <h2 className="section__title">Qualification</h2>
             <span className="section__subtitle">My personal Journey</span>
 
@@ -43,11 +43,11 @@ export default function Qualifications() {
                     : "qualification__content"} >
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Web Design</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <h3 className="qualification__title">Software Development</h3>
+                                <span className="qualification__subtitle">CodeSpace Academy</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2021 - Present
+                                    Feb 2023 - Aug 2023
                                 </div>
                             </div>
 
@@ -66,22 +66,22 @@ export default function Qualifications() {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">Art Director</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <h3 className="qualification__title">Responsive Web Design</h3>
+                                <span className="qualification__subtitle">FreeCodeCamp</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2020 - 2021
+                                    2022
                                 </div>
                             </div>   
                         </div>
 
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Web Developement</h3>
-                                <span className="qualification__subtitle">Spain - Institute</span>
+                                <h3 className="qualification__title">BSc Computer Science</h3>
+                                <span className="qualification__subtitle">Eduvos</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2018 - 2020
+                                    Mar 2021 - Dec 2021
                                 </div>
                             </div>
 
@@ -91,7 +91,7 @@ export default function Qualifications() {
                             </div>
                         </div>
 
-                        <div className="qualification__data">
+                        {/* <div className="qualification__data">
                             <div></div>
 
                             <div>
@@ -107,7 +107,7 @@ export default function Qualifications() {
                                     2017 - 2018
                                 </div>
                             </div>   
-                        </div>
+                        </div> */}
 
                         
                     </div>
@@ -117,11 +117,11 @@ export default function Qualifications() {
                     : "qualification__content"}>
                         <div className="qualification__data">
                             <div>
-                                <h3 className="qualification__title">Product Designer</h3>
-                                <span className="qualification__subtitle">Microsoft - Spain</span>
+                                <h3 className="qualification__title">Freelance Transcriber</h3>
+                                <span className="qualification__subtitle">Rev.com</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2021 - Present
+                                    2019 - 2021
                                 </div>
                             </div>
 
@@ -140,16 +140,16 @@ export default function Qualifications() {
                             </div>
 
                             <div>
-                                <h3 className="qualification__title">UX Designer</h3>
-                                <span className="qualification__subtitle">Apple Inc - Spain</span>
+                                <h3 className="qualification__title">Census Data Collector</h3>
+                                <span className="qualification__subtitle">Statistics SA</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                    2020 - 2021
+                                    Feb 2022 - Apr 2022
                                 </div>
                             </div>   
                         </div>
 
-                        <div className="qualification__data">
+                        {/* <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Web Designer</h3>
                                 <span className="qualification__subtitle">Figma - Spain</span>
@@ -163,7 +163,7 @@ export default function Qualifications() {
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
-                        </div>
+                        </div> */}
 
                         
 
