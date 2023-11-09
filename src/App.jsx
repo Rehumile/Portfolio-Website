@@ -6,6 +6,7 @@ import About from './components/About/About'
 import Skills from './components/Skills/Skills'
 import Qualifications from './components/Qualifications/Qualifications'
 import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Skills/>
         <Qualifications/>
         <Contact/>
+        <Footer/>
       </main>
     </>
   )
