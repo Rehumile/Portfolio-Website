@@ -4,6 +4,16 @@ import "./Header.css"
 
 export default function Header() {
 
+    // window.addEventListener("scroll", function() {
+
+    //     /* ---change background header--- */
+    //     const header = document.querySelector(".header");
+    //     // when the scroll is higher than 560 viewport height,
+    //     // add the scroll-header class to the tag with the header tage
+    //     if (this.scrollY >= 80) header.classList.add("scroll-header")
+    //     else header.classList.remove("scroll-header")
+    // })
+
     /* ---toggle menu--- */
     const [showMenu, setShowMenu] = useState(false);
 

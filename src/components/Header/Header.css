@@ -47,6 +47,12 @@
     color: var(--title-color-dark)
 }
 
+/*Change background header*/
+
+.scroll-header {
+  
+}
+
 /*==========BREAKPOINTS===========*/
 /*For medium devices*/
 @media  screen and (max-width: 768px) {
