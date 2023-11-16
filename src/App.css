@@ -167,7 +167,6 @@ img {
   display: inline-flex;
   align-items: center;
 }
-
 /*==========BREAKPOINTS===========*/
 /*For large devices*/
 @media  screen and (max-width: 992px) {
@@ -186,6 +185,7 @@ img {
   }
   
 }
+
 
 /*For medium devices*/
 @media  screen and (max-width: 768px) {
