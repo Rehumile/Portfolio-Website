@@ -11,7 +11,7 @@ export default function Qualifications() {
     return (
         
 
-        <section className="qualification section" id="qualification">
+        <section className="qualification section" id="qualifications">
             <h2 className="section__title">Qualification</h2>
             <span className="section__subtitle">My personal Journey</span>
 
