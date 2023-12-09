@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./Skills.css"
 import "./Frontend"
 import Frontend from "./Frontend";

@@ -1,8 +1,6 @@
-import React from "react";
-import Info from "./Info";
 import './About.css'
 import AboutImg from "../../assets/profile-img2.jpeg"
-import CV from "../../assets/RehumileSekotoResume.pdf" 
+import CV from "../../assets/RehumileSekotoCV.pdf" 
 
 export default function About() {
     return (

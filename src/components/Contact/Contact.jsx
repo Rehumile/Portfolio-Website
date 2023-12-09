@@ -1,18 +1,17 @@
-import React from "react";
 import "./Contact.css"
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import { useRef } from 'react';
+// import emailjs from '@emailjs/browser';
 
 export default function Contact() {
 
-    const form = useRef();
+   // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+//   const sendEmail = (e) => {
+//     e.preventDefault();
 
-    emailjs.sendForm('service_i12xj6n', 'template_no0wtni', form.current, '7KqHS6B3mK-p4u4X_')
-      e.target.reset()
-  };
+//     emailjs.sendForm('service_i12xj6n', 'template_no0wtni', form.current, '7KqHS6B3mK-p4u4X_')
+//       e.target.reset()
+//   };
 
     return (
         <section className="contact section" id="contact">
@@ -38,18 +37,18 @@ export default function Contact() {
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-whatsapp contact__card-icon"></i>
+                            <i className="bx bxl-linkedin contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">071 440 3327</span>
+                            <h3 className="contact__card-title">Linkedin</h3>
+                            <span className="contact__card-data">Rehumile Sekoto</span>
 
-                            <a href="" className="contact__button">
+                            <a href="https://www.linkedin.com/in/rehumilesekoto/" className="contact__button">
                                 Write me{" "}
                                 <i className="bx bx-right-arrow-alt 
                                 contact__button-icon"></i>
                             </a>
                         </div>
-
+{/* 
                         <div className="contact__card">
                             <i className="bx bxl-messenger contact__card-icon"></i>
 
@@ -61,14 +60,14 @@ export default function Contact() {
                                 <i className="bx bx-right-arrow-alt 
                                 contact__button-icon"></i>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
                 <div className="contact__content">
                     <h3 className="contact__title">Write to me</h3>
 
-                    <form ref={form} onSubmit={sendEmail} 
+                    <form action="https://formsubmit.co/sekotorehumile1@gmail.com" method="POST" 
                     className="contact__form">
                         <div className="contact__form-div">
                             <label className="contact__form-tag">Name</label>
@@ -86,7 +85,7 @@ export default function Contact() {
 
                         <div className="contact__form-div contact__form-area">
                             <label className="contact__form-tag">Message</label>
-                            <textarea name="project"
+                            <textarea name="message"
                             cols="30"
                             rows="10"
                             className="contact__form-input"

@@ -1,4 +1,3 @@
-import React from "react";
 import "./ScrollUp.css"
 
 export default function ScrollUp() {

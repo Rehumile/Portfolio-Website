@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import "./Header.css"
 
@@ -21,7 +20,7 @@ export default function Header() {
         <>
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Sekoto</a>
+                <a href="index.html" className="nav__logo">Rehumile Sekoto</a>
 
                 <div className={showMenu ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
@@ -46,7 +45,7 @@ export default function Header() {
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#projects" className="nav__link">
+                            <a href="#portfolio" className="nav__link">
                                 <i className="uil uil-folder-open nav__icon"></i>Projects
                             </a>
                         </li>

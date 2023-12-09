@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { projectsData, projectsNav } from "./Data";
+import { useEffect, useState } from "react";
+import { projectsData } from "./Data";
 import './Work.css'
 import WorksItems from "./WorksItems";
 
@@ -7,7 +7,7 @@ import WorksItems from "./WorksItems";
 export default function Works() {
         const [item, setItem] = useState({name: 'all'});
         const [projects, setProjects] = useState([]);
-        const [active, setActive] = useState(0);
+       // const [active, setActive] = useState(0);
 
         useEffect(() => {
             if (item.name === 'all') {
@@ -22,14 +22,14 @@ export default function Works() {
             }
         }, [item])
 
-        const handleClick = (e, index) => {
-            setItem({name: e.target.textContent })
-            setActive(index)
-        }
+        // const handleClick = (e, index) => {
+        //     setItem({name: e.target.textContent })
+        //     setActive(index)
+        // }
 
     return (
         <div>
-            <div className="work__filters">
+            {/* <div className="work__filters">
             {projectsNav.map((item, index) => {
                 return <span 
                 onClick={(e) => {
@@ -41,7 +41,7 @@ export default function Works() {
                     {item.name}
                 </span>
             })}
-        </div>
+        </div> */}
 
         <div className="work__container container grid">
             {projects.map((item) => {
