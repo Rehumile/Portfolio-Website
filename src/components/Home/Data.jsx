@@ -55,7 +55,7 @@ export default function Data() {
                 </svg>
             </h1>
             <h3 className="home__subtitle">Junior Frontend Developer</h3>
-            <p className="home__description">I am a junior developer based
+            <p className="home__description">Hi, I am a junior developer based
             in Pretoria, and I am very passionate and dedicated
             to my work. </p>
 
