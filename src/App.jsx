@@ -11,6 +11,44 @@ import Work from './components/Work/Work'
 
 function App() {
 
+  let cashCentres = {
+    "cashCentre": [
+      {
+        "id": "",
+        "name": "All"
+      },
+      {
+        "id": "",
+        "name": "Multiple"
+      },
+      {
+        "id": 1,
+        "name": "Durban",
+        "regionId": 3
+      },
+      {
+        "id": 2,
+        "name": "Louis Trichardt",
+        "regionId": 6
+      },
+      {
+        "id": 3,
+        "name": "Bloemfontein",
+        "regionId": 5
+      }
+    ]
+  }
+  function sortByCashCentreName(a, b) {
+    if (a.name < b.name) return -1;
+    if (a.name > b.name) return 1;
+    return 0;
+}
+
+// Sort the "cashCentre" array within the modifiedData object
+cashCentres.cashCentre.sort(sortByCashCentreName);
+
+console.log('sorted',cashCentres);
+  //console.log(cashCentres.cashCentre.sort())
   return (
     <>
       <Header/>

@@ -41,6 +41,21 @@ export default function Qualifications() {
                     <div className={toggleState === 1 ?
                     "qualification__content qualification__content-active" 
                     : "qualification__content"} >
+                                                <div className="qualification__data">
+                            <div>
+                                <h3 className="qualification__title">Junior DevOps Engineer</h3>
+                                <span className="qualification__subtitle">CherryOlive</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i>
+                                    Dec 2023 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>
+                        </div>
                         <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Software Development</h3>

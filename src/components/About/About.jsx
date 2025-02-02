@@ -15,14 +15,11 @@ export default function About() {
                 {/* <Info/> */}
 
                 <p className="about__description">
-                I am a recent Software Development graduate from the
-                CodeSpace Academy, where I immersed myself in the world of 
-                coding and emerged with a passion for creating innovative 
-                and efficient solutions. Coding has been a passion of mine since my 
+                Passionate Junior DevOps Engineer with a strong foundation in software development, gained through both formal education at CodeSpace Academy and professional experience. Coding has been a passion of mine since my 
                 Primary years of schooling. Yep, that long. 😅 Because its exciting delving into 
                 new tech or a new programming language, almost like a kid getting a new toy, that exciting!🤗 
                 Anyways, I am super excited to bring my new skills to the 
-                tech industry and continue evolving as a developer. Feel to reach out
+                tech industry and continue evolving as a developer. Lets Connect! Feel to reach out
                 to me via Linkedin or the form below.
                 </p>
 

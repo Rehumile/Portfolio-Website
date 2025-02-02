@@ -7,18 +7,11 @@ export default function Backend() {
 
             <div className="skills__box">
                 <div className="skills__group">
-                <div className="skills__data">
-                <i className="bx bx-badge-check"></i>
-                <div>
-                    <h3 className="skills__name">Patience</h3>
-                    {/* <span className="skills__level">Basic</span> */}
-                    </div>
-                </div>
 
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Collaboration</h3>
+                    <h3 className="skills__name">Team Collaboration</h3>
                     {/* <span className="skills__level">Proficient</span> */}
                     </div>
                 </div>
@@ -26,7 +19,7 @@ export default function Backend() {
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Verbal Communication</h3>
+                    <h3 className="skills__name"> Communication</h3>
                     {/* <span className="skills__level">Intermediate</span> */}
                     </div>
                 </div>

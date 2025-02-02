@@ -10,24 +10,21 @@ export default function Frontend() {
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">HTML & CSS</h3>
-                    <span className="skills__level">Proficient</span>
+                    <h3 className="skills__name">Angular & Typescript</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">JavaScript</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">Talend ESB (ETL Tool)</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Git/Version Control</h3>
-                    <span className="skills__level">Proficient</span>
+                    <h3 className="skills__name">AWS(EC2, S3, Load balancing)</h3>
                     </div>
                 </div>
 
@@ -37,16 +34,14 @@ export default function Frontend() {
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">React JS</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">Git/Version Control</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">TypeScript</h3>
-                    <span className="skills__level">Intermediate</span>
+                    <h3 className="skills__name">MySql(SQL)</h3>
                     </div>
                 </div>
 
@@ -54,16 +49,26 @@ export default function Frontend() {
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Microsoft Office</h3>
-                    <span className="skills__level">Advanced</span>
+                    <h3 className="skills__name">BPMN (Bonitasoft)</h3>
                     </div>
                 </div>
 
                 <div className="skills__data">
                 <i className="bx bx-badge-check"></i>
                 <div>
-                    <h3 className="skills__name">Figma</h3>
-                    <span className="skills__level">Beginner</span>
+                    <h3 className="skills__name">Docker & Docker Compose</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                    <h3 className="skills__name">React & React Native</h3>
+                    </div>
+                </div>
+                <div className="skills__data">
+                <i className="bx bx-badge-check"></i>
+                <div>
+                    <h3 className="skills__name">Javascript, HTML & CSS</h3>
                     </div>
                 </div>
 
